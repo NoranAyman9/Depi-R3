@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+</head>
+<body>
+
+    <h2>Novell Services Login</h2>
+
+    <form>
+        <label for="username">UserName </label> 
+        <input type="text" id="username" name="username" ><br><br>
+
+
+        <label for="password">Password </label>
+        <input type="password" id="password" name="password" ><br><br>
+
+        <label for="city">City of Employment </label>
+        <input type="text" name="city" id="city"><br><br>
+
+        <label>Web server </label>
+        <select name="server">
+            <option>-- Choose a server --</option>
+            <option value="server1">Server 1</option>
+            <option value="server2">Server 2</option>
+        </select><br><br>
+
+        <label for="role">Please specify  your role</label><br>
+
+        <input type="radio" name="role" id="admin"value="admin">
+        <label for="admin">Admin</label><br>
+
+        <input type="radio" name="role" id="Engineer" value="Engineer">
+        <label for="Engineer">Engineer</label><br>
+
+        <input type="radio" name="role" id="Manager" value="Manager">
+        <label for="Manager">Manager</label><br>
+
+        
+        <input type="radio" name="role" id="Guest" value="Guest">
+        <label for="Guest">Guest</label><br><br>
+
+
+        <label for="Sign-on">Single Sign-on to the following</label><br>
+
+        <input type="checkbox" id="Mail" name="Mail" value="Mail">
+        <label for="Mail">Mail</label><br>
+
+        <input type="checkbox" id="Payroll" name="Payroll" value="Payroll">
+        <label for="Payroll">Payroll</label><br>
+
+        <input type="checkbox" id="Self-service" name="Self-service" value="Self-service">
+        <label for="Self-service">Self-service</label><br><br>
+
+
+        <button type="submit">Login</button>
+        <button type="reset">Reset</button>
+
+
+
+    </form>  
+</body>
+</html>
+
+
