@@ -1,0 +1,25 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width:100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: scalling;
+    animation-duration: 4s;
+    margin: auto;
+    margin-top: 300px;
+}
+@keyframes scalling {
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: green;
+        scale: 2;
+    }
+    
+}

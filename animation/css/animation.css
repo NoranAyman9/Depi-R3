@@ -1,0 +1,42 @@
+/* reset style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width:100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: square;
+    animation-duration: 4s;
+    /* margin: auto; */
+    /* margin-top: 300px; */
+}
+
+@keyframes square {
+    0%{
+        background-color: 4a90e2;
+        translate: 0 0;
+
+    }
+    25%{
+        background-color: #50e3c2;
+        translate: 200px 0px;
+    }
+    50%{
+        background-color: darkgray;
+        translate: 200px 200px;
+    }
+    75%{
+        background-color: darkslategrey;
+        translate: 0 200px;
+    }
+    100%{
+        background-color: #9013fe;
+        translate: 0 0;
+
+    }
+    
+    
+}
