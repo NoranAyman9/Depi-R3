@@ -1,0 +1,6 @@
+function calc_circle_area (radius){
+    return Math.PI * radius * radius;
+}
+let n=5;
+let circle_area = calc_circle_area(n)
+console.log(circle_area)

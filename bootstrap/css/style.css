@@ -1,0 +1,11 @@
+.bg-gradiant{
+    background:linear-gradient(135deg, #1e30f3 0%, #e21e80 100%); 
+}
+.bg-light{
+      
+        background: linear-gradient(135deg, #1e30f3 40%, #e21e80 50%);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    
+}
