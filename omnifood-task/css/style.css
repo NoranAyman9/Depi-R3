@@ -1,0 +1,23 @@
+.bg-pink{
+    background-color: #fdf2e9;
+}
+.bg-orange{
+    background-color: #e67e22;
+}
+.grey-img{
+    filter: grayscale(100%);
+} .avatar-group img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+    margin-left: -10px; 
+}
+.avatar-group img:first-child {
+    margin-left: 0;
+    }
+.highlight {
+    color: #d2691e;
+    font-weight: bold;
+    }
