@@ -21,3 +21,174 @@
     color: #d2691e;
     font-weight: bold;
     }
+.list i
+{
+    color:#ff5722;    
+    font-size: 1.4rem;
+}
+.meals .col-content
+{
+    border-radius: 15px;
+}
+.meals .col-content .img
+{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.meals .details li
+{
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.meals .details span
+{
+    font-weight: 600;
+    font-size: 0.8rem;
+    background-color:#28a745; 
+    border-radius: 10px;
+    color: #000000; 
+}
+.meals .details .pelo-span
+{
+    background-color: #FFD700;  
+}
+.meals .details .vegan-span
+{
+    background-color:  #28a745;
+}
+.meals .details h4, .meals h3
+{
+    color: #000000;  ;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+.meals h3
+{
+    font-size: 2rem;
+}
+.meals .icon
+{
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+.meals .col-content
+{
+    transition: all 0.5s;
+}
+.meals .shadow:hover
+{
+    translate: 0 -10px;
+}
+.ancor
+{
+    color: var(--main-color);
+}
+    .testimonial-title {
+      color: red;
+      font-weight: bold;
+    }
+    .testimonial-subtitle {
+      color: black;
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .client-img {
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      object-fit: cover;
+    }
+    .testimonials-section .col-lg-6:first-child {
+          margin-left: -70px; 
+}
+    
+    .grid-img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .pricing-section {
+      background-color: white;
+      padding: 60px 0;
+    }
+    .pricing-title {
+      color: gray;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .pricing-subtitle {
+      font-size: 1.8rem;
+      font-weight: bold;
+      margin-bottom: 50px;
+    }
+    .pricing-card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 30px;
+      max-width: 300px;
+      position: relative; /* مهم عشان الشريط */
+    }
+    .pricing-price {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .pricing-feature {
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+    /* شريط الـ Best Value */
+    .ribbon {
+      width: 150px;
+      background: gold;
+      color: black;
+      font-weight: bold;
+      text-align: center;
+      line-height: 30px;
+      position: absolute;
+      top: 20px;
+      right: -40px;
+      transform: rotate(45deg);
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+      font-size: 0.9rem;
+    }
+.feature-icon {
+      background-color:  #fdf2e9;
+      color: #e67e22;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      margin: 0 auto 20px auto;
+    }
+    .feature-title {
+      font-weight: bold;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+    .feature-text {
+      color: gray;
+      font-size: 0.95rem;
+    }
+   .signup-section {
+      background-color: orange;
+      color: white;
+    }
+    .signup-btn {
+      background-color: brown;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+    }
+    .signup-btn:hover {
+      background-color: #5a2c2c;
+    }
+    .signup-img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
