@@ -439,10 +439,6 @@ mySection.appendChild(newElement);
 
 
 
-
-
-
-
 // codewars problems
 
 
