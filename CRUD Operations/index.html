@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Manager</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="d-flex flex-column bg-gray dark-mode">
+
+  <header class="text-center mt-5 pt-3">
+    <h1 class="fw-bold text-purple">Products Manager</h1>
+    <button class="btn btn-light rounded-pill shadow-sm toggle-mode">
+      Mode: <i class="fa-solid fa-moon ms-2"></i>
+    </button>
+  </header>
+
+  <main>
+    <div class="container mt-4">
+      <div class="add-box p-3 rounded shadow-sm">
+        <input class="form-control mb-2" type="text" id="title" placeholder="Product Title *">
+        <div class="d-flex flex-wrap gap-2">
+          <input class="form-control col" type="number" id="price" placeholder="Price *">
+          <input class="form-control col" type="number" id="taxes" placeholder="Taxes">
+          <input class="form-control col" type="number" id="ads" placeholder="Ads">
+          <input class="form-control col" type="number" id="discount" placeholder="Discount">
+          <span class="total-box col text-center fw-bold rounded">Total: <b></b></span>
+        </div>
+        <div class="d-flex flex-wrap gap-2 mt-2">
+          <input class="form-control col" type="number" id="count" placeholder="Count *">
+          <input class="form-control col" type="text" id="category" placeholder="Category *">
+        </div>
+        <button class="btn btn-purple w-100 mt-3 fw-bold">create</button>
+      </div>
+    </div>
+    <div class="search mt-2">
+                <h2 class="text-center fw-bold mb-3 position-relative heading">Search</h2>
+                <div class="inputs d-flex flex-wrap row-gap-2 justify-content-between gap-2">
+                    <div class="col-12 col-md-4  d-flex">
+                        <label class="fs-5 fw-bold col-7 col-sm-3 col-md-6 col-lg-4" for="serached-product">Search By: </label>
+                        <select id="serached-product" class="p-2 input-bg text-black rounded col">
+                            <option value="title">Product Title</option>
+                            <option value="category">Category</option>
+                        </select>
+                    </div>
+                    <input class="col-12 col-md p-2 px-3 border-0 input-bg text-black rounded" type="text" id="search" placeholder="Search">
+                </div>
+            </div>
+        </div>
+  </main>
+
+  <section class="container my-2">
+    <h2 class="fw-bold text-center text-purple mb-5">All Products</h2>
+    <div class="table-responsive">
+      <table class="table text-center table-bordered align-middle">
+        <thead class="table-light">
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Price</th>
+            <th>Taxes</th>
+            <th>Category</th>
+            <th>Total</th>
+            <th>Edit</th>
+            <th>Remove</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <button class="btn btn-danger w-100 mt-2 removeAll">Remove All [0]</button>
+  </section>
+
+  <script src="https://kit.fontawesome.com/a2e0e6ad4f.js" crossorigin="anonymous"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

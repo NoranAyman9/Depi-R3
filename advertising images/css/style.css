@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.ad-board {
+    text-align: center;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 15px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-board img {
+    max-width: 100%;
+    max-height: 80%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#stopAds {
+    background: rgb(70, 15, 15);
+    color: white;
+    border: none;
+    padding: 12px 40px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}

@@ -1,0 +1,112 @@
+body.custom-mode {
+    background-color: #fafafa;
+    color: #333;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.add-box input {
+    background-color: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+
+
+.btn-purple {
+    background-color:#e97c7c;
+    color:#333;
+    transition: 0.3s;
+}
+.btn-purple:hover {
+    background-color:#e97c7c;
+    color:#333;
+}
+
+.total-box {
+    background-color:#e97c7c;
+    color:#333;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+body.dark-mode {
+    background-color:#e97c7c;
+    color:#333;
+}
+body.dark-mode .table {
+    background-color:#e97c7c;
+    color:#333;
+}
+body.dark-mode .btn-purple {
+    background-color:#e97c7c;
+    color:#333;
+}
+body.dark-mode {
+    background-color: #000 !important; 
+    color: #fff !important;           
+}
+
+.total-box {
+    background-color:#e97c7c;
+    color:#333;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.create button {
+    background-color:#e97c7c;
+    color:#333;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.create button:hover {
+    background-color:#e97c7c;
+}
+
+.removeAll {
+    background-color:#e97c7c !important;
+    color:#333!important;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.removeAll:hover {
+    background-color: #e97c7c!important;
+}
+#search {
+    border: 2px solid #333333ca !important;
+    border-radius: 6px;
+    height: 36px; 
+    max-width: 850px; 
+    font-size: 14px; 
+    margin-right: 120px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+label[for="serached-product"] {
+    margin-left: 130px;   
+    display: flex;
+    align-items: center; 
+    font-size: 15px;
+    margin-bottom: 7px;
+}
+
+
+#serached-product {
+    border: 2px solid #333;
+    border-radius: 6px;
+    height: 36px;
+    font-size: 14px;
+    margin-top: 30px;
+    margin-left: -50px; 
+    padding: 4px; 
+}

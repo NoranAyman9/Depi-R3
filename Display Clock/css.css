@@ -1,0 +1,20 @@
+.clock-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 100px;
+    background: linear-gradient(135deg, #1e272e, #2c3e50);
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+#digitalClock {
+    font-family: "Orbitron", sans-serif;
+    font-size: 50px;
+    color: #00ffcc;
+    letter-spacing: 8px;
+    text-shadow: 0 0 20px #00ffcc, 0 0 40px #009688;
+}
