@@ -1,0 +1,39 @@
+.carousel-item {
+        height: 100vh;
+}
+.carousel-item img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+}
+.slider-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: bold;
+        background: rgba(0,0,0,0.5);
+        padding: 10px 20px;
+        border-radius: 10px;
+        animation: rotateText 5s linear infinite;
+}
+@keyframes rotateText {
+        0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+        100% {
+        transform: translate(-50%, -50%) rotate(360deg); }
+    }
+
+.carousel-indicators [data-bs-target] {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: blue;   
+    }
+
+.carousel-indicators .active {
+        background-color: green !important; 
+}
